@@ -14,7 +14,7 @@ module ma(
 	inout wire i2c_sda,
 	inout wire i2c_scl
 	);
-    // Estados
+    
 	localparam STATE_IDLE = 0;
 	localparam STATE_START = 1;
 	localparam STATE_ADDRESS = 2;
@@ -168,5 +168,6 @@ module ma(
 			endcase
 		end
 	end
+
 
 endmodule
